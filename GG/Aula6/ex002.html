@@ -7,23 +7,22 @@
     <title>Meu primeiro programa</title>
     <style>
         body {
-            background-color: #5050ac;
-            color: aliceblue;
+            background-color: #5e2569;
+            color: rgb(99, 157, 207);  /* esse é o comentário em CSS */
             font: normal 20pt Arial;
     }
     h1 {
-        color: rgb(182, 182, 49);
+        color: rgb(20, 26, 117);
     }
 
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!-- este é um comentário de html -->
     <p>Já me livrei da maldição</p>
     <script>   
-        window.alert('Minha primeira msg')
-        window.confirm('tá gostando de JS?')
-        window.prompt('qual seu nome?')
+        var nome = window.prompt('qual seu nome?')
+        window.alert('é um grande prazer te conhecer, ' + nome)
     </script>
 </body>
 </html>
